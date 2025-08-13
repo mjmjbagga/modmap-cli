@@ -37,5 +37,13 @@
   },
   "directories": {
     "lib": "lib"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjmjbagga/modmap-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mjmjbagga/modmap-cli/issues"
+  },
+  "homepage": "https://github.com/mjmjbagga/modmap-cli#readme"
 }
