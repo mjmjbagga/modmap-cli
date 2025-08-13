@@ -1,0 +1,41 @@
+{
+  "name": "modmap-cli",
+  "version": "1.0.4",
+  "description": "CLI that maps modules to files/functions/lines with timezone-safe timestamps.",
+  "main": "index.js",
+  "bin": {
+    "modmap": "index.js"
+  },
+  "keywords": [
+    "cli",
+    "timestamps",
+    "modules",
+    "mapping",
+    "developer-tools"
+  ],
+  "author": "Jass",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fs-extra": "^11.2.0",
+    "luxon": "^3.4.4",
+    "moment-timezone": "^0.6.0"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
